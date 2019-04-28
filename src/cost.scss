@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+$color1 : #D60365;
+$color2 : #FFFFFF;
+$color3 : #333333;
+
+
+@mixin posAbsolute{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}

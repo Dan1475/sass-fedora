@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="dist/css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <script type="text/javascript" src="script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js" charset="utf-8"></script>
+
+      <!-- ////template -->
+      <script id="box-template" type="text/x-handlebars-template">
+       <div class="box"><p>Hello World</p></div>
+      </script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+   <div class="container">
+     <div class="nav">
+       <div class="sub-nav">
+         <div class="logo">
+           <img src="img/pandora_pink.svg" alt="">
+         </div>
+         <div class="menu">
+           <span>ABOUT</span>
+           <span>CAREERS</span>
+           <span>PRESS</span>
+           <span>CONTACT</span>
+           <span>ORDER</span>
+
+         </div>
+       </div>
+     </div>
+     <div class="header">
+       <div class="background first active">
+        <img src="https://www.foodora.com/wp-content/uploads/2017/08/4000x2000_parallax_4-1.jpg" alt="">
+        <div class="claim">
+         <h1>GOOD FOOD FOR YOUR EVERYDAY</h1>
+        </div>
+
+      </div>
+      <div class="background last">
+      <img src="https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_5.jpg" alt="">
+       <div class="claim">
+        <h1>GOOD FOOD FOR YOUR EVERYDAY</h1>
+       </div>
+
+     </div>
+
+      <div class="country">
+       <div class="text">
+        <small>CHOOSE YOUR COUNTRY:</small>
+       </div>
+       <div class="flag-container">
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/AT.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/CA.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/FL.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/FR.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/DE.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/IT.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/NL.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/NO.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/SE.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/PK.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/SG-1.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/MY.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/bangladesh2.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/TH.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/HK-1.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/TW.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/PH.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/BG.png" alt=""></a>
+         <a href="#"><img src="https://www.foodora.com/wp-content/uploads/2015/07/RO.png" alt=""></a>
+
+       </div>
+      </div>
+     </div>
+     <div class="main">
+        <section class="about pos">
+         <div class="text">
+           <h2 class="color1">ABOUT US</h2>
+           <p>For us, it's not just about bringing you good food from your favorite restaurants. It's about making a connection, which is why we sit down with the chefs, dreaming up menus that will arrive fresh and full of flavour. Try us!</p>
+           <button class="bg-color1" type="button" name="button">LEARN MORE</button>
+         </div>
+        </section>
+
+        <section class="careers pos">
+          <div class="text">
+            <h2 class="color1">CAREERS</h2>
+            <p class="white">Hungry to make a difference? There's always room at our table. Pull up a seat.</p>
+            <button class="bg-color1" type="button" name="button">JOIN US</button>
+          </div>
+        </section>
+        <section class="press pos">
+          <div class="text">
+            <h2 class="color1">PRESS</h2>
+            <p class="white">We've become one of the leading players in 22 markets worldwide across Europe, Canada, Australia and Asia. Find out why the press is buzzing about our work.</p>
+            <button class="bg-color1" type="button" name="button">SEE THE LATEST</button>
+          </div>
+        </section>
+        <section class="contact pos">
+          <div class="text">
+            <h2 class="white">CONTACT</h2>
+            <p class="white">It's food lovers like you who inspire us to do what we do. Your comments, ideas and questions push us to go that extra mile, every time. So drop us a line!</p>
+            <button class="bg-color2" type="button" name="button">GET IN TOUCH</button>
+          </div>
+        </section>
+
+     </div>
+     <div class="footer">
+      <div class="left">
+        <img src="img/pandora_pink.svg" alt="">
+        <p>© 2019</p>
+      </div>
+      <div class="right">
+        <div class="img">
+          <img src="https://www.foodora.com/wp-content/uploads/2016/11/ic_social_facebook.svg" alt="">
+          <img src="https://www.foodora.com/wp-content/uploads/2016/11/ic_social_twitter.svg" alt="">
+          <img src="https://www.foodora.com/wp-content/uploads/2016/11/ic_social_instagram.svg" alt="">
+
+        </div>
+        <div class="link">
+         <span>Imprint</span>
+         <span>Security</span>
+        </div>
+      </div>
+     </div>
+   </div>
+  </body>
+</html>
